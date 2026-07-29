@@ -1,0 +1,24 @@
+# Reasonix 元数据
+.reasonix/
+
+# Python 辅助脚本（仅用于开发阶段的数据提取）
+*.py
+!build_clean_data.py
+
+# 中间数据 / 提取结果
+extracted_data.json
+
+# 提示词 / AI 配置
+prompts/
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.swp
+*~

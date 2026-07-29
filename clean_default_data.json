@@ -1,0 +1,1206 @@
+{
+  "courses": [
+    {
+      "id": "CPED1001",
+      "name": "CPED1001",
+      "studentCount": 1365,
+      "capacityPerClass": 35,
+      "allowedSports": [
+        "Basketball",
+        "Football",
+        "Volleyball",
+        "Kinball",
+        "Handball",
+        "Baseball",
+        "Soccer",
+        "Korfball",
+        "Skipping Rope",
+        "Tchoukball"
+      ]
+    },
+    {
+      "id": "CPED1002",
+      "name": "CPED1002",
+      "studentCount": 1435,
+      "capacityPerClass": 35,
+      "allowedSports": [
+        "Badminton",
+        "Pickle Ball",
+        "Yoga",
+        "Martial Arts",
+        "Table Tennis",
+        "Rock Climbing",
+        "Golf",
+        "Diabolo",
+        "Dance"
+      ]
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t1",
+      "name": "Walter",
+      "color": "#3b82f6",
+      "priority": 1,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Kinball",
+        "Rock Climbing"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t2",
+      "name": "Water",
+      "color": "#ef4444",
+      "priority": 2,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Pickle Ball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t3",
+      "name": "Frankie",
+      "color": "#22c55e",
+      "priority": 3,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Volleyball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t4",
+      "name": "Gasper",
+      "color": "#f59e0b",
+      "priority": 4,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Tchoukball",
+        "Table Tennis"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t5",
+      "name": "Leong Hung Po",
+      "color": "#8b5cf6",
+      "priority": 5,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Basketball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t6",
+      "name": "周健東",
+      "color": "#ec4899",
+      "priority": 6,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Handball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t7",
+      "name": "Ip Kuai Wa",
+      "color": "#14b8a6",
+      "priority": 7,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Volleyball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t8",
+      "name": "陳海雄",
+      "color": "#f97316",
+      "priority": 8,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Basketball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t9",
+      "name": "Xi Chengqing",
+      "color": "#6366f1",
+      "priority": 9,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Martial Arts"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t10",
+      "name": "蘇慶大",
+      "color": "#84cc16",
+      "priority": 10,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Golf"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t11",
+      "name": "馬燕紅",
+      "color": "#06b6d4",
+      "priority": 11,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Yoga"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t12",
+      "name": "羅佩珊",
+      "color": "#d946ef",
+      "priority": 12,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Yoga"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t13",
+      "name": "Lai Weng Fat",
+      "color": "#e11d48",
+      "priority": 13,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Basketball"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t14",
+      "name": "Dr. Zhang Di",
+      "color": "#0ea5e9",
+      "priority": 14,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Soccer"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t15",
+      "name": "Leong Wai Man",
+      "color": "#a855f7",
+      "priority": 15,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Martial Arts"
+      ],
+      "preferences": []
+    },
+    {
+      "id": "t16",
+      "name": "Ka Chon LAM",
+      "color": "#10b981",
+      "priority": 16,
+      "maxDailyClasses": 4,
+      "skills": [
+        "Diabolo"
+      ],
+      "preferences": []
+    }
+  ],
+  "venues": [
+    {
+      "id": "v_g001",
+      "name": "G001",
+      "allowedSports": [
+        "Handball",
+        "Baseball",
+        "Football",
+        "Soccer",
+        "Kinball",
+        "Volleyball"
+      ]
+    },
+    {
+      "id": "v_g016",
+      "name": "G016",
+      "allowedSports": [
+        "Basketball",
+        "Volleyball",
+        "Korfball",
+        "Skipping Rope",
+        "Pickle Ball",
+        "Kinball",
+        "Golf",
+        "Diabolo",
+        "Tchoukball"
+      ]
+    },
+    {
+      "id": "v_g028",
+      "name": "G028",
+      "allowedSports": [
+        "Basketball",
+        "Volleyball",
+        "Korfball",
+        "Skipping Rope",
+        "Pickle Ball",
+        "Kinball",
+        "Golf",
+        "Diabolo",
+        "Tchoukball"
+      ]
+    },
+    {
+      "id": "v_badminton_hall",
+      "name": "Badminton Hall",
+      "allowedSports": [
+        "Badminton",
+        "Pickle Ball"
+      ]
+    },
+    {
+      "id": "v_dance_room",
+      "name": "Dance Room 3008",
+      "allowedSports": [
+        "Dance",
+        "Yoga",
+        "Martial Arts"
+      ]
+    },
+    {
+      "id": "v_table_tennis",
+      "name": "Table Tennis Room 3010",
+      "allowedSports": [
+        "Table Tennis"
+      ]
+    },
+    {
+      "id": "v_climbing_wall",
+      "name": "Rock Climbing Wall",
+      "allowedSports": [
+        "Rock Climbing"
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "teacherId": "t1",
+      "courseId": "CPED1001",
+      "sport": "Kinball",
+      "classCount": 2
+    },
+    {
+      "teacherId": "t1",
+      "courseId": "CPED1002",
+      "sport": "Rock Climbing",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t2",
+      "courseId": "CPED1002",
+      "sport": "Pickle Ball",
+      "classCount": 6
+    },
+    {
+      "teacherId": "t3",
+      "courseId": "CPED1001",
+      "sport": "Volleyball",
+      "classCount": 8
+    },
+    {
+      "teacherId": "t4",
+      "courseId": "CPED1001",
+      "sport": "Tchoukball",
+      "classCount": 2
+    },
+    {
+      "teacherId": "t4",
+      "courseId": "CPED1002",
+      "sport": "Table Tennis",
+      "classCount": 5
+    },
+    {
+      "teacherId": "t5",
+      "courseId": "CPED1001",
+      "sport": "Basketball",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t6",
+      "courseId": "CPED1001",
+      "sport": "Handball",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t7",
+      "courseId": "CPED1001",
+      "sport": "Volleyball",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t8",
+      "courseId": "CPED1001",
+      "sport": "Basketball",
+      "classCount": 5
+    },
+    {
+      "teacherId": "t9",
+      "courseId": "CPED1002",
+      "sport": "Martial Arts",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t10",
+      "courseId": "CPED1002",
+      "sport": "Golf",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t11",
+      "courseId": "CPED1002",
+      "sport": "Yoga",
+      "classCount": 5
+    },
+    {
+      "teacherId": "t12",
+      "courseId": "CPED1002",
+      "sport": "Yoga",
+      "classCount": 5
+    },
+    {
+      "teacherId": "t13",
+      "courseId": "CPED1001",
+      "sport": "Basketball",
+      "classCount": 5
+    },
+    {
+      "teacherId": "t14",
+      "courseId": "CPED1001",
+      "sport": "Soccer",
+      "classCount": 5
+    },
+    {
+      "teacherId": "t15",
+      "courseId": "CPED1002",
+      "sport": "Martial Arts",
+      "classCount": 4
+    },
+    {
+      "teacherId": "t16",
+      "courseId": "CPED1002",
+      "sport": "Diabolo",
+      "classCount": 4
+    }
+  ],
+  "timetable": [
+    {
+      "id": "tt_1",
+      "day": "MON",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 1,
+      "sport": "Rock Climbing",
+      "teacherId": "t1",
+      "venueId": "v_climbing_wall"
+    },
+    {
+      "id": "tt_2",
+      "day": "MON",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 25,
+      "sport": "Basketball",
+      "teacherId": "t8",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_3",
+      "day": "MON",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 5,
+      "sport": "Pickle Ball",
+      "teacherId": "t2",
+      "venueId": "v_badminton_hall"
+    },
+    {
+      "id": "tt_4",
+      "day": "MON",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 28,
+      "sport": "Yoga",
+      "teacherId": "t11",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_5",
+      "day": "TUE",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 3,
+      "sport": "Rock Climbing",
+      "teacherId": "t1",
+      "venueId": "v_climbing_wall"
+    },
+    {
+      "id": "tt_6",
+      "day": "TUE",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 30,
+      "sport": "Basketball",
+      "teacherId": "t13",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_7",
+      "day": "TUE",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 7,
+      "sport": "Pickle Ball",
+      "teacherId": "t2",
+      "venueId": "v_badminton_hall"
+    },
+    {
+      "id": "tt_8",
+      "day": "TUE",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 31,
+      "sport": "Yoga",
+      "teacherId": "t12",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_9",
+      "day": "WED",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 1,
+      "sport": "Kinball",
+      "teacherId": "t1",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_10",
+      "day": "WED",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 9,
+      "sport": "Pickle Ball",
+      "teacherId": "t2",
+      "venueId": "v_badminton_hall"
+    },
+    {
+      "id": "tt_11",
+      "day": "WED",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 7,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_12",
+      "day": "WED",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 29,
+      "sport": "Basketball",
+      "teacherId": "t8",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_13",
+      "day": "THU",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 15,
+      "sport": "Basketball",
+      "teacherId": "t5",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_14",
+      "day": "THU",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 32,
+      "sport": "Basketball",
+      "teacherId": "t13",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_15",
+      "day": "THU",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 9,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_16",
+      "day": "THU",
+      "slot": "S1",
+      "courseId": "CPED1002",
+      "classNumber": 18,
+      "sport": "Martial Arts",
+      "teacherId": "t9",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_17",
+      "day": "FRI",
+      "slot": "S1",
+      "courseId": "CPED1001",
+      "classNumber": 27,
+      "sport": "Basketball",
+      "teacherId": "t8",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_18",
+      "day": "MON",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 2,
+      "sport": "Rock Climbing",
+      "teacherId": "t1",
+      "venueId": "v_climbing_wall"
+    },
+    {
+      "id": "tt_19",
+      "day": "MON",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 26,
+      "sport": "Basketball",
+      "teacherId": "t8",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_20",
+      "day": "MON",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 6,
+      "sport": "Pickle Ball",
+      "teacherId": "t2",
+      "venueId": "v_badminton_hall"
+    },
+    {
+      "id": "tt_21",
+      "day": "TUE",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 4,
+      "sport": "Rock Climbing",
+      "teacherId": "t1",
+      "venueId": "v_climbing_wall"
+    },
+    {
+      "id": "tt_22",
+      "day": "TUE",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 31,
+      "sport": "Basketball",
+      "teacherId": "t13",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_23",
+      "day": "TUE",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 8,
+      "sport": "Pickle Ball",
+      "teacherId": "t2",
+      "venueId": "v_badminton_hall"
+    },
+    {
+      "id": "tt_24",
+      "day": "TUE",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 32,
+      "sport": "Yoga",
+      "teacherId": "t12",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_25",
+      "day": "WED",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 2,
+      "sport": "Kinball",
+      "teacherId": "t1",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_26",
+      "day": "WED",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 10,
+      "sport": "Pickle Ball",
+      "teacherId": "t2",
+      "venueId": "v_badminton_hall"
+    },
+    {
+      "id": "tt_27",
+      "day": "WED",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 11,
+      "sport": "Table Tennis",
+      "teacherId": "t4",
+      "venueId": "v_table_tennis"
+    },
+    {
+      "id": "tt_28",
+      "day": "WED",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 8,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_29",
+      "day": "WED",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 34,
+      "sport": "Basketball",
+      "teacherId": "t13",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_30",
+      "day": "THU",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 16,
+      "sport": "Basketball",
+      "teacherId": "t5",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_31",
+      "day": "THU",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 33,
+      "sport": "Basketball",
+      "teacherId": "t13",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_32",
+      "day": "THU",
+      "slot": "S2",
+      "courseId": "CPED1002",
+      "classNumber": 19,
+      "sport": "Martial Arts",
+      "teacherId": "t9",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_33",
+      "day": "THU",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 10,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_34",
+      "day": "FRI",
+      "slot": "S2",
+      "courseId": "CPED1001",
+      "classNumber": 28,
+      "sport": "Basketball",
+      "teacherId": "t8",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_35",
+      "day": "MON",
+      "slot": "S3",
+      "courseId": "CPED1001",
+      "classNumber": 3,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_36",
+      "day": "MON",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 29,
+      "sport": "Yoga",
+      "teacherId": "t12",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_37",
+      "day": "TUE",
+      "slot": "S3",
+      "courseId": "CPED1001",
+      "classNumber": 5,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_38",
+      "day": "TUE",
+      "slot": "S3",
+      "courseId": "CPED1001",
+      "classNumber": 11,
+      "sport": "Tchoukball",
+      "teacherId": "t4",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_39",
+      "day": "TUE",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 16,
+      "sport": "Martial Arts",
+      "teacherId": "t9",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_40",
+      "day": "WED",
+      "slot": "S3",
+      "courseId": "CPED1001",
+      "classNumber": 13,
+      "sport": "Basketball",
+      "teacherId": "t5",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_41",
+      "day": "WED",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 20,
+      "sport": "Golf",
+      "teacherId": "t10",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_42",
+      "day": "THU",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 12,
+      "sport": "Table Tennis",
+      "teacherId": "t4",
+      "venueId": "v_table_tennis"
+    },
+    {
+      "id": "tt_43",
+      "day": "THU",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 22,
+      "sport": "Golf",
+      "teacherId": "t10",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_44",
+      "day": "THU",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 24,
+      "sport": "Yoga",
+      "teacherId": "t11",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_45",
+      "day": "FRI",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 14,
+      "sport": "Table Tennis",
+      "teacherId": "t4",
+      "venueId": "v_table_tennis"
+    },
+    {
+      "id": "tt_46",
+      "day": "FRI",
+      "slot": "S3",
+      "courseId": "CPED1001",
+      "classNumber": 37,
+      "sport": "Soccer",
+      "teacherId": "t14",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_47",
+      "day": "FRI",
+      "slot": "S3",
+      "courseId": "CPED1002",
+      "classNumber": 26,
+      "sport": "Yoga",
+      "teacherId": "t11",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_48",
+      "day": "MON",
+      "slot": "S4",
+      "courseId": "CPED1001",
+      "classNumber": 4,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_49",
+      "day": "MON",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 30,
+      "sport": "Yoga",
+      "teacherId": "t12",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_50",
+      "day": "TUE",
+      "slot": "S4",
+      "courseId": "CPED1001",
+      "classNumber": 6,
+      "sport": "Volleyball",
+      "teacherId": "t3",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_51",
+      "day": "TUE",
+      "slot": "S4",
+      "courseId": "CPED1001",
+      "classNumber": 12,
+      "sport": "Tchoukball",
+      "teacherId": "t4",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_52",
+      "day": "TUE",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 17,
+      "sport": "Martial Arts",
+      "teacherId": "t9",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_53",
+      "day": "WED",
+      "slot": "S4",
+      "courseId": "CPED1001",
+      "classNumber": 14,
+      "sport": "Basketball",
+      "teacherId": "t5",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_54",
+      "day": "WED",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 21,
+      "sport": "Golf",
+      "teacherId": "t10",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_55",
+      "day": "WED",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 33,
+      "sport": "Yoga",
+      "teacherId": "t12",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_56",
+      "day": "THU",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 13,
+      "sport": "Table Tennis",
+      "teacherId": "t4",
+      "venueId": "v_table_tennis"
+    },
+    {
+      "id": "tt_57",
+      "day": "THU",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 23,
+      "sport": "Golf",
+      "teacherId": "t10",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_58",
+      "day": "THU",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 25,
+      "sport": "Yoga",
+      "teacherId": "t11",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_59",
+      "day": "FRI",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 15,
+      "sport": "Table Tennis",
+      "teacherId": "t4",
+      "venueId": "v_table_tennis"
+    },
+    {
+      "id": "tt_60",
+      "day": "FRI",
+      "slot": "S4",
+      "courseId": "CPED1001",
+      "classNumber": 38,
+      "sport": "Soccer",
+      "teacherId": "t14",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_61",
+      "day": "FRI",
+      "slot": "S4",
+      "courseId": "CPED1002",
+      "classNumber": 27,
+      "sport": "Yoga",
+      "teacherId": "t11",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_62",
+      "day": "MON",
+      "slot": "S5",
+      "courseId": "CPED1001",
+      "classNumber": 21,
+      "sport": "Volleyball",
+      "teacherId": "t7",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_63",
+      "day": "MON",
+      "slot": "S5",
+      "courseId": "CPED1001",
+      "classNumber": 17,
+      "sport": "Handball",
+      "teacherId": "t6",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_64",
+      "day": "TUE",
+      "slot": "S5",
+      "courseId": "CPED1001",
+      "classNumber": 19,
+      "sport": "Handball",
+      "teacherId": "t6",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_65",
+      "day": "WED",
+      "slot": "S5",
+      "courseId": "CPED1001",
+      "classNumber": 23,
+      "sport": "Volleyball",
+      "teacherId": "t7",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_66",
+      "day": "WED",
+      "slot": "S5",
+      "courseId": "CPED1001",
+      "classNumber": 39,
+      "sport": "Soccer",
+      "teacherId": "t14",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_67",
+      "day": "THU",
+      "slot": "S5",
+      "courseId": "CPED1002",
+      "classNumber": 36,
+      "sport": "Martial Arts",
+      "teacherId": "t15",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_68",
+      "day": "THU",
+      "slot": "S5",
+      "courseId": "CPED1001",
+      "classNumber": 35,
+      "sport": "Soccer",
+      "teacherId": "t14",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_69",
+      "day": "MON",
+      "slot": "S6",
+      "courseId": "CPED1001",
+      "classNumber": 22,
+      "sport": "Volleyball",
+      "teacherId": "t7",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_70",
+      "day": "MON",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 38,
+      "sport": "Diabolo",
+      "teacherId": "t16",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_71",
+      "day": "MON",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 34,
+      "sport": "Martial Arts",
+      "teacherId": "t15",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_72",
+      "day": "TUE",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 41,
+      "sport": "Diabolo",
+      "teacherId": "t16",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_73",
+      "day": "TUE",
+      "slot": "S6",
+      "courseId": "CPED1001",
+      "classNumber": 20,
+      "sport": "Handball",
+      "teacherId": "t6",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_74",
+      "day": "WED",
+      "slot": "S6",
+      "courseId": "CPED1001",
+      "classNumber": 24,
+      "sport": "Volleyball",
+      "teacherId": "t7",
+      "venueId": "v_g028"
+    },
+    {
+      "id": "tt_75",
+      "day": "WED",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 35,
+      "sport": "Martial Arts",
+      "teacherId": "t15",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_76",
+      "day": "WED",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 39,
+      "sport": "Diabolo",
+      "teacherId": "t16",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_77",
+      "day": "THU",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 37,
+      "sport": "Martial Arts",
+      "teacherId": "t15",
+      "venueId": "v_dance_room"
+    },
+    {
+      "id": "tt_78",
+      "day": "THU",
+      "slot": "S6",
+      "courseId": "CPED1001",
+      "classNumber": 36,
+      "sport": "Soccer",
+      "teacherId": "t14",
+      "venueId": "v_g001"
+    },
+    {
+      "id": "tt_79",
+      "day": "THU",
+      "slot": "S6",
+      "courseId": "CPED1002",
+      "classNumber": 40,
+      "sport": "Diabolo",
+      "teacherId": "t16",
+      "venueId": "v_g016"
+    },
+    {
+      "id": "tt_80",
+      "day": "MON",
+      "slot": "S6",
+      "courseId": "CPED1001",
+      "classNumber": 18,
+      "sport": "Handball",
+      "teacherId": "t6",
+      "venueId": "v_g001"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FED 排課系統</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>📅 FED 排課系統</h1>
+        <div class="header-actions">
+            <button class="btn btn-sm" onclick="App.resetData()" title="重設為範例資料">🔄 重設資料</button>
+            <button class="btn btn-sm" onclick="App.exportJSON()">💾 匯出 JSON</button>
+            <label class="btn btn-sm" style="cursor:pointer;">
+                📥 匯入 JSON
+                <input type="file" accept=".json" onchange="App.importJSON(this)" style="display:none;">
+            </label>
+        </div>
+    </header>
+    <nav class="tab-nav">
+        <button class="tab-btn active" onclick="App.switchTab('dashboard')">📊 總覽</button>
+        <button class="tab-btn" onclick="App.switchTab('courses')">📚 課程管理</button>
+        <button class="tab-btn" onclick="App.switchTab('teachers')">👨‍🏫 教師管理</button>
+        <button class="tab-btn" onclick="App.switchTab('venues')">🏟️ 場地管理</button>
+        <button class="tab-btn" onclick="App.switchTab('assignments')">⚙️ 授課配置</button>
+        <button class="tab-btn" onclick="App.switchTab('timetable')">📅 課表檢視</button>
+        <button class="tab-btn" onclick="App.switchTab('export')">📥 匯出 Excel</button>
+    </nav>
+    <main id="app-content" class="app-content">
+        <!-- Dynamic content loaded by JS -->
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

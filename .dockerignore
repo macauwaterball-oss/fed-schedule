@@ -1,0 +1,22 @@
+# Git
+.git/
+.gitignore
+
+# Development files
+*.py
+*.json
+*.xlsx
+extracted_data.json
+repo.json
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.swp
+*~
